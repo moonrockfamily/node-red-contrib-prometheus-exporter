@@ -1,26 +1,36 @@
 {
-  "name": "node-red-contrib-prometheus-exporter",
-  "version": "1.0.5",
-  "description": "A NodeRED node which allows exporting Prometheus metrics from within flows.",
+  "name": "node-red-contrib-prometheus-exporter-enhanced",
+  "version": "1.0.0",
+  "description": "A NodeRED node which allows exporting Prometheus metrics from within flows. Enhanced with additional metrics and noop.",
   "keywords": [
     "node-red",
     "prometheus",
-    "telegraf"
+    "telegraf",
+    "histogram",
+    "summary",
+    "gauge",
+    "counter"
   ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Docoyo/node-red-contrib-prometheus-exporter.git"
+    "url": "git+https://github.com/moonrockfamily/node-red-contrib-prometheus-exporter.git"
   },
   "author": "docoyo",
-  "contributors": [{
-    "name": "Masanori Fujita"
-  }],
+  "contributors": [
+    {
+      "name": "Masanori Fujita"
+    },
+    {
+      "name": "Justin Kromlinger",
+      "email": "mail@hashworks.net"
+    }
+  ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Docoyo/node-red-contrib-prometheus-exporter/issues"
+    "url": "https://github.com/moonrockfamily/node-red-contrib-prometheus-exporter/issues"
   },
-  "homepage": "https://github.com/Docoyo/node-red-contrib-prometheus-exporter#readme",
+  "homepage": "https://github.com/moonrockfamily/node-red-contrib-prometheus-exporter#readme",
   "node-red": {
     "nodes": {
       "prometheus-exporter": "prometheus-exporter/prometheus-exporter.js",

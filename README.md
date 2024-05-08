@@ -1,4 +1,4 @@
-# node-red-contrib-prometheus-exporter
+# node-red-contrib-prometheus-exporter-enhanced
 A NodeRED node which allows exporting Prometheus metrics from within flows.
 
 Using this node for NodeRED, you can define your own Prometheus metrics which will become available over an HTTP endpoint. The endpoint can be polled from a Prometheus agent or Telegraf.
@@ -14,12 +14,12 @@ Labels are supported for all metric types.
 
 ## How to install
 
-The preferred way of installing the node is to use the Palette Manager in NodeRED. Just seek for `node-red-contrib-prometheus-exporter` and follow the instructions.
+The preferred way of installing the node is to use the Palette Manager in NodeRED. Just seek for `node-red-contrib-prometheus-exporter-enhanced` and follow the instructions.
 
 Alternatively, you can also manually install the node permanently into your embedded NodeRED application with npm:
 
 ```bash
-npm install node-red-contrib-prometheus-exporter
+npm install node-red-contrib-prometheus-exporter-enhanced
 ```
 
 ## How to use
